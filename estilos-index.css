@@ -1,16 +1,16 @@
 #cafenav{
     font-family: 'Courgette', cursive;
-    color: #804000;
+    color: #522900;
 }
 #cafenav2{
-    color: #804000;
+    color: #522900;
 }
 #searchnav{
-    border: 3px solid #804000;
+    border: 3px solid #522900;
 }
 #color-boton-search{
-    border: 3px solid #804000;
-    color: #804000;
+    border: 3px solid #522900;
+    color: #522900;
     background-color: burlywood;
 }
 #marginnav{
@@ -21,48 +21,68 @@
     background-color: burlywood;
     border: 10px solid burlywood;
 }
-.t-p-nuevos{
+#t-p-nuevos{
+    color: white;
     font-family: 'Roboto Condensed', sans-serif;
     position: relative;
-    top: 30%; left: 38%;
+    top: 30%; left: 37%;
     height: 100px;
     width: 300px;
 }
 .objeto1{
     position: relative;
-    top: 20px; left: 3.5%;
+    top: 20px; left: 2%;
     height: 442px;
     width: 288px;
 }
 .objeto2{
     position: relative;
-    top: -422px; left: 27%;
+    top: -422px; left: 25%;
     height: 442px;
     width: 288px;
 }
 .objeto3{
     position: relative;
-    top: -864px; left: 50.5%;
+    top: -864px; left: 48%;
     height: 442px;
     width: 288px;
 }
 .objeto4{
     position: relative;
-    top: -1306px; left: 74%;
-    height: 442px;
-    width: 288px;
-}
-.objeto5{
-    position: relative;
-    top: -1719px; left: 1200px;
+    top: -1306px; left: 71%;
     height: 442px;
     width: 288px;
 }
 .t-mas-vendidos{
+    color: white;
     font-family: 'Roboto Condensed', sans-serif;
     position: relative;
     top: -1180px; left: 41%;
     height: 100px;
     width: 300px;
 }
-
+.objeto2-1{
+    position: relative;
+    top: -1155px; left: 2.5%;
+    height: 442px;
+    width: 288px;
+}
+.objeto2-2{
+    position: relative;
+    top: -1598px; left: 25%;
+    height: 442px;
+    width: 288px;
+}
+.objeto2-3{
+    position: relative;
+    top: -2040px; left: 47.5%;
+    height: 442px;
+    width: 288px;
+}
+.objeto2-4{
+    position: relative;
+    top: -2482px; left: 70%;
+    height: 442px;
+    width: 288px;
+    margin: 0;
+}
