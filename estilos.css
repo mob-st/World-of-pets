@@ -42,5 +42,27 @@
 }
 .jugete1{
     position: relative;
-    top: -800px; left: 110px;
+    top: -750px; left: 100px;
+}
+.jugete2{
+    position: relative;
+    top: -1180px; left: 450px;
+}
+.jugete3{
+    position: relative;
+    top: -1540px; left: 800px;
+}
+.jugete4{
+    position: relative;
+    top: -1900px; left: 1150px;
+}
+.subti1{
+    position: relative;
+    top: 150px; left: 100px;
+    color: white;
+}
+.subti2{
+    position: relative;
+    top: 750px; left: 100px;
+    color: white;
 }
