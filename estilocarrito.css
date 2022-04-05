@@ -1,0 +1,53 @@
+#cafenav{
+    font-family: 'Courgette', cursive;
+    color: #804000;
+}
+#cafenav2{
+    color: #804000;
+}
+#searchnav{
+    border: 3px solid #804000;
+}
+#color-boton-search{
+    border: 3px solid #804000;
+    color: #804000;
+    background-color: burlywood;
+}
+#marginnav{
+    margin: 0;
+    padding: 0;
+}
+#fondo{
+    background-color: burlywood;
+    border: 10px solid burlywood;
+}
+#color-boton-filtrar{
+    border: 3px solid #522900;
+    color: #522900;
+    background-color: burlywood;
+}
+#hdos{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 1rem; 
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin: auto;
+    
+}
+
+.productos{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 1rem; 
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin: auto;
+    
+}
