@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="estilos.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caninos</title>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type= "text/css" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>World of pets</title>
 </head>
 <body style="background-color:#522900;">
     <nav id="marginnav" class="navbar navbar-expand-lg navbar-light bg-light">
         <div id="fondo" class="container-fluid">
-          <a id="cafenav" class="navbar-brand">World of pets</a>
+          <a id="cafenav" class="navbar-brand" href="index.html">World of pets</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -25,14 +26,14 @@
                 <a id="cafenav2" class="nav-link" href="#">Metodo de pago</a>
               </li>
               <div class="dropdown">
-                <button id="color-boton-search" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button id="color-boton-filtrar" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                   Filtrar
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                  <button class="dropdown-item" type="button">Action</button>
-                  <button class="dropdown-item" type="button">Another action</button>
-                  <button class="dropdown-item" type="button">Something else here</button>
-                </div>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="canina.html">Perros</a></li>
+                  <li><a class="dropdown-item" href="felinos.html">Gatos</a></li>
+                  <li><a class="dropdown-item" href="#">Hamsters</a></li>
+                </ul>
               </div>
             </ul>
             <form class="d-flex">
@@ -42,95 +43,226 @@
           </div>
         </div>
       </nav>
-      <div class="subti1">
-        <h3> Correas para perros </h3>
-    </div>
-    <div class="subti2">
-        <h3> Juguetes para perros </h3>
-    </div>
-    <div class="correa1">
-      <div class="card" style="width: 18rem;">
-        <img src="https://www.hogarmania.com/archivos/202103/elegir-collar-arne-perro-portada3-668x400x80xX-1.jpg " class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Correa perro grandes con arnes</h5>
-          <p class="card-text">$14.990</p>
-          <a href="#" class="btn btn-primary">Agregar</a>
-        </div>
+      <br>
+      <h2 id="hdos">Correas para perros</h2>
+      <section class="productos">
+        <div class="col mx-auto align-items-center">
+          <br>
+          <div class="row mx-auto justify-content-center align-items-center text-center container">
+            <div class="card col-lg-3 col-md-3 col-12 w-30">
+                <img src="https://www.hogarmania.com/archivos/202103/elegir-collar-arne-perro-portada3-668x400x80xX-1.jpg " width="150" height="150" class="imagenob1" alt="...">
+                
+                <h5>Arnes para perros grandes</h5>
+                <p>Fabricado de materiales resistentes de primera calidad y comodidad para nuestros perros</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+               
+            </div>
+          
+            <div class="card col-lg-3 col-md-3 col-12 w-30">
+                <img src="https://www.topaula.com/wp-content/uploads/2018/04/COLLAR-ARN%C3%89S-Y-CORREAS-PARA-TU-PERRO.jpg" width="150" height="150" class="imagenob2" alt="...">
+                
+                <h5>Correa para perros grandes simple</h5>
+                <p>Collar de cinta. Hebilla, medialuna y ojetillos metálicos. Hecho a mano</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+                
+            </div>
+        
+            
+            <div class="card col-lg-3 col-md-3 col-12 w-30">
+                <img src="https://cdnx.jumpseller.com/doggyland/image/19266111/resize/640/640?1636329716" width="150" height="175" class="imagenob3" alt="...">
+               
+                <h5>Correa Police</h5>
+                <p>Piel sana y pelaje brillante. Todo esto acompañado de una comida deliciosa para tu Dog</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+               
+            </div>
+       
+            
+            <div class="card col-lg-3 col-md-3 col-12 w-30">
+                <img src="https://www.dhresource.com/webp/m/0x0/f2/albu/g21/M00/65/95/rBVaq2CbrkSAR31-AAHwIyrKD8U719.jpg/dog-leashes-traction-ropes-vestvstyle-pet.jpg" width="150" height="150"  class="imagenob4" alt="...">
+                
+                <h5>Correa para perros pequeños</h5>
+                <p>Arnés reflectante ajustable para gato, chaleco con correas para caminar</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+                
+            </div>
+          </div>
       </div>
-    </div>
+      <br>
+      <br>
+      <br>
+    </section>
+    <h2 id="hdos">Juguetes para perros</h2>
+    <section class="productos-2">
+      <div class="col mx-auto align-items-center">
+        <br>
+        <div class="row mx-auto justify-content-center align-items-center text-center container">
+          <div class="card col-lg-3 col-md-3 col-12 w-30">
+              <img src="https://laikapp.s3.amazonaws.com/dev_images_products/66814_Orientpet___Juguete_Petstation_N_3_1622064961_0_500x500.png" width="150" height="150" class="imagenob1" alt="...">
+              
+              <h5>Pelota de plastico roja</h5>
+              <p>El santo de los masticables para perros finalmente está aquí para hacer feliz a tu amigo fiel</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+             
+          </div>
+        
+      
+          <div class="card col-lg-3 col-md-3 col-12 w-30">
+              <img src="https://www.mismascotas.es/28845-large_default/pato-con-sonido.jpg" width="150" height="150" class="imagenob2" alt="...">
 
-    <div class="correa2">
-       <div class="card" style="width: 18rem;">
-        <img src="https://www.topaula.com/wp-content/uploads/2018/04/COLLAR-ARN%C3%89S-Y-CORREAS-PARA-TU-PERRO.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Correa perros grandes simple</h5>
-          <p class="card-text">$9.990</p>
-          <a href="#" class="btn btn-primary">Agregar</a>
+              <h5>Pato que hace ruido</h5>
+              <p>19 cm de diametro
+                Colores: Rojo, Amarillo
+                Material Acrilico Transparente</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+              
+          </div>
+      
+          
+          <div class="card col-lg-3 col-md-3 col-12 w-30">
+              <img src="https://www.mismascotas.es/28968-large_default/pesa-pelota-futbol.jpg" width="150" height="150" class="imagenob3" alt="...">
+             
+              <h5>Pesa pelota de Futbol</h5>
+              <p>Hechos de un plástico resistente con una boquilla de acero inoxidable a prueba de fugas</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+             
+          </div>
+     
+          
+          <div class="card col-lg-3 col-md-3 col-12 w-30">
+              <img src="https://www.mismascotas.es/34788-large_default/juguete-para-perro-cuerda-y-goma-swings-duvoplus.jpg" width="150" height="150"  class="imagenob4" alt="...">
+              
+              <h5>Cuerda de goma</h5>
+              <p>Arenero para Gatos con filtro
+                Para Gatos de todos los tamaños
+                Con parte superior removible</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+              
+          </div>
         </div>
-      </div>
     </div>
-    <div class="correa3">
-       <div class="card" style="width: 18rem;">
-        <img src="https://cdnx.jumpseller.com/doggyland/image/19266111/resize/640/640?1636329716" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Correa POLICE</h5>
-          <p class="card-text">$19.990</p>
-          <a href="#" class="btn btn-primary">Agregar</a>
+    <br>
+    <br>
+    <br>
+  </section>
+    <br>
+    <footer  class="text-center text-lg-start bg-light text-muted" aria-expanded="false">
+    <!-- Section: Social media -->
+    <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
         </div>
-      </div>
-    </div>
+        <!-- Left -->
 
-    <div class="correa4">
-        <div class="card" style="width: 18rem;">
-        <img src="https://www.dhresource.com/webp/m/0x0/f2/albu/g21/M00/65/95/rBVaq2CbrkSAR31-AAHwIyrKD8U719.jpg/dog-leashes-traction-ropes-vestvstyle-pet.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Correa perro chico</h5>
-          <p class="card-text">$12.990</p>
-          <a href="#" class="btn btn-primary">Agregar</a>
+        <!-- Right -->
+        <div>
+        <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+        </a>
         </div>
-      </div>
-    </div>
-    <div class="jugete1">
-        <div class="card" style="width: 18rem;">
-        <img src="https://laikapp.s3.amazonaws.com/dev_images_products/66814_Orientpet___Juguete_Petstation_N_3_1622064961_0_500x500.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Pelota de plastico roja</h5>
-          <p class="card-text">$1.990</p>
-          <a href="#" class="btn btn-primary">Agregar</a>
-        </div>
-      </div>
-    </div>
+        <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
 
-    <div class="jugete2">
-        <div class="card" style="width: 18rem;">
-        <img src="https://www.mismascotas.es/28845-large_default/pato-con-sonido.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Pato con sonido</h5>
-          <p class="card-text">$2.990</p>
-          <a href="#" class="btn btn-primary">Agregar</a>
-        </div>
-      </div>
-    </div>
+    <!-- Section: Links  -->
+    <section class="Footer">
+        <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>World of pets
+            </h6>
+            <p>
+                Somos una empresa distribuidora de diversos elementos para el cuidado de sus mascotas
+            </p>
+            </div>
+            <!-- Grid column -->
 
-        <div class="jugete3">
-        <div class="card" style="width: 18rem;">
-        <img src="https://www.mismascotas.es/28968-large_default/pesa-pelota-futbol.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Pesa pelota de futbol</h5>
-          <p class="card-text">$1.990</p>
-          <a href="#" class="btn btn-primary">Agregar</a>
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+                Products
+            </h6>
+            <p>
+                <a href="#!" class="text-reset">Viejos</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset">Nuevos</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset">Recientes</a>
+            </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+                Hipervinculos
+            </h6>
+            <p>
+                <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset">Help</a>
+            </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+                Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i> Puente Alto, PA 10012, CL</p>
+            <p>
+                <i class="fas fa-envelope me-3"></i>
+                Somos-world-of-pets@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Worldofpets.com</a>
         </div>
-      </div>
-    </div>
-        <div class="jugete4">
-        <div class="card" style="width: 18rem;">
-        <img src="https://www.mismascotas.es/34788-large_default/juguete-para-perro-cuerda-y-goma-swings-duvoplus.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Cuerda con goma</h5>
-          <p class="card-text">$3.990</p>
-          <a href="#" class="btn btn-primary">Agregar</a>
-        </div>
-      </div>
-    </div>
-</body>
+        <!-- Copyright -->
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
 </html>

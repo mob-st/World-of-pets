@@ -21,48 +21,46 @@
     background-color: burlywood;
     border: 10px solid burlywood;
 }
-
-
-
-.correa1{
-    position:relative ;
-    top: 150px ; left: 100px ;
+#color-boton-filtrar{
+    border: 3px solid #522900;
+    color: #522900;
+    background-color: burlywood;
 }
-.correa2{
-    position: relative;
-    top: -190px; left: 450px;
-}
-.correa3{
-    position: relative;
-    top: -520px; left: 800px;
-}
-.correa4{
-    position: relative;
-    top: -950px; left: 1150px;
-}
-.jugete1{
-    position: relative;
-    top: -750px; left: 100px;
-}
-.jugete2{
-    position: relative;
-    top: -1180px; left: 450px;
-}
-.jugete3{
-    position: relative;
-    top: -1540px; left: 800px;
-}
-.jugete4{
-    position: relative;
-    top: -1900px; left: 1150px;
-}
-.subti1{
-    position: relative;
-    top: 150px; left: 100px;
+#hdos{
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 1rem; 
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin: auto;
 }
-.subti2{
-    position: relative;
-    top: 750px; left: 100px;
-    color: white;
+
+.productos .card{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem; 
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin: auto;
+
+    
+}
+.productos-2 .card{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem; 
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin: auto;
+
+    
 }
