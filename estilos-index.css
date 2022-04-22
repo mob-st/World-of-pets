@@ -21,6 +21,11 @@
     background-color: burlywood;
     border: 10px solid burlywood;
 }
+
+.carousel-inner{
+    background-color: #3d2208;
+}
+
 #color-boton-filtrar{
     border: 3px solid #522900;
     color: #522900;
