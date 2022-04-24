@@ -16,9 +16,11 @@
     <script>
 
         $(document).ready(function(){
+          $("#alertaExito").hide();    
           $("#alertaNombre").hide();
           var mensaje = "";
           $("#alertaNombre").html(mensaje);
+          $("#alertaExito").html(mensaje);
     
           $("#guardar").click(function(){
             debugger;
@@ -78,11 +80,18 @@
                 $("#alertaNombre").html(mensaje);
                 $("#alertaNombre").show();
                 event.preventDefault();
-
                 $('body, html').animate({
                     scrollTop: '0px'
                 }, 0);
 
+            }else{
+                mensaje="Se ha guardado con exito!";
+                $("#alertaExito").html(mensaje);
+                $('#alertaExito').show();
+                event.preventDefault();
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 0);
             }
          })
         $("#limpiar").click(function(){
@@ -122,6 +131,9 @@
         <div class="alert alert-danger" id="alertaNombre" role="alert">
             Debe ingresar un nombre!
         </div>
+        <div class="alert alert-success" id="alertaExito" role="alert">
+            Se ha guardado con exito!
+        </div>
         <label for="nombres">Nombres</label>
         <input class="inputs" type="text" name="nombres" id="nombres">
         <label for="apellidos">Apellidos</label>
@@ -129,11 +141,14 @@
         <label for="ciudad">Ciudad</label>
         <input class="inputs" type="text" name="ciudad" id="ciudad">
         <label for="correo">Correo</label>
-        <input class="inputs" type="email" name="correo" id="correo">
-        <label for="numero">Numero celular</label>
-        <input class="inputs" type="number" name="numero" id="numero">
+        <input class="inputs" type="email" name="correo" id="correo"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Ejemplo: example123@email.com">
+        <label for="numero">Numero celular</label> <label for="numero">(inicia con 9)</label>
+        <input class="inputs" type="tel" name="numero" id="numero"
+        maxlength="9" pattern="9+[0-9]{8}" placeholder="Ejemplo: 923345464">
         <label for="identificacion">Identificacion (RUT)</label>
-        <input class="inputs" type="text" name="identificacion" id="identificacion">
+        <input class="inputs" type="text" name="identificacion" id="identificacion"
+        maxlength="10" pattern="^[0-9]+-[0-9kK]{1}$" placeholder="Ejemplo: 21345342-5">
         <input type="submit" value="Guardar" class="boton1" id="guardar">
         <input type="reset" class="boton2" value="Limpiar" id="limpiar">
         </form>
