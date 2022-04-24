@@ -23,8 +23,8 @@
 }
 .boton1{
     position: relative;
-    left: 69%;
-    width: 30%;
+    left: 47%;
+    width: 25%;
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
@@ -32,10 +32,10 @@
     border: 3px solid #804000;
     color: #804000;
 }
-.boton2{
+.form-cuenta .boton2{
     position: relative;
-    left: 69%;
-    width: 30%;
+    left: 47%;
+    width: 25%;
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
