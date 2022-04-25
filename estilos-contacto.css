@@ -21,6 +21,15 @@
     border-radius: 5px;
     border: 3px solid #804000;
 }
+
+.input-comentario{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 3px solid #804000;
+}
+
 .boton1{
     position: relative;
     left: 47%;

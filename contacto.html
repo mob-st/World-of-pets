@@ -5,12 +5,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link rel="stylesheet" type= "text/css" href="estilos-index.css">
-    <link rel="stylesheet" type= "text/css" href="estilos-cuenta.css">
+    <link rel="stylesheet" type= "text/css" href="estilos-contacto.css">
     <!-- css bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <title>Cuenta</title>
+    <title>Contacto</title>
     <link rel="icon" href="logo2.png">
 
     <script>
@@ -21,8 +21,9 @@
           var mensaje = "";
           $("#alertaNombre").html(mensaje);
           $("#alertaExito").html(mensaje);
-    
-          $("#guardar").click(function(){
+          
+
+          $("#enviar").click(function(){
             debugger;
             if ($("#nombres").val().trim().length == 0) {
     
@@ -64,17 +65,7 @@
                     scrollTop: '0px'
                 }, 0);
 
-            }else if ($("#numero").val().trim().length == 0){
-
-                mensaje = "Debe ingresar un Numero";
-                $("#alertaNombre").html(mensaje);
-                $("#alertaNombre").show();
-                event.preventDefault();
-                $('body, html').animate({
-                    scrollTop: '0px'
-                }, 0);
-
-            }else if ($("#identificacion").val().trim().length == 0){
+            }else if ($("#rut").val().trim().length == 0){
 
                 mensaje = "Debe ingresar una Identificacion (RUT)";
                 $("#alertaNombre").html(mensaje);
@@ -84,14 +75,16 @@
                     scrollTop: '0px'
                 }, 0);
 
-            }else{
-                mensaje="Se ha guardado con exito!";
-                $("#alertaExito").html(mensaje);
-                $('#alertaExito').show();
+            }else if ($("#comentario").val().trim().length <= 50){
+
+                mensaje = "Debe ingresar un comentario con almenos 50 caracteres";
+                $("#alertaNombre").html(mensaje);
+                $("#alertaNombre").show();
                 event.preventDefault();
                 $('body, html').animate({
                     scrollTop: '0px'
                 }, 0);
+
             }
          })
         $("#limpiar").click(function(){
@@ -111,7 +104,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item1">
-                <a id="cafenav2" class="nav-link active" href="cuenta.html">Cuenta</a>
+                <a id="cafenav2" class="nav-link active" href="contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
                 <a id="cafenav2" class="nav-link" href="car-seg.html">Carrito</a>
@@ -127,7 +120,7 @@
     <br>
     <section class="form-cuenta">
         <form>
-            <h4>Datos de la cuenta</h4>
+            <h4>Contacto</h4>
         <div class="alert alert-danger" id="alertaNombre" role="alert">
             Debe ingresar un nombre!
         </div>
@@ -143,13 +136,16 @@
         <label for="correo">Correo</label>
         <input class="inputs" type="email" name="correo" id="correo"
         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Ejemplo: example123@email.com">
-        <label for="numero">Numero celular</label> <label for="numero">(inicia con 9)</label>
+        <label for="numero">Numero celular</label> <label for="numero">(Inicia con 9) (Opcional)</label>
         <input class="inputs" type="tel" name="numero" id="numero"
         maxlength="9" pattern="9+[0-9]{8}" placeholder="Ejemplo: 923345464">
         <label for="identificacion">Identificacion (RUT)</label>
-        <input class="inputs" type="text" name="identificacion" id="identificacion"
-        maxlength="10" pattern="^[0-9]+-[0-9kK]{1}$" placeholder="Ejemplo: 21345342-5">
-        <input type="submit" value="Guardar" class="boton1" id="guardar">
+        <input class="inputs" type="text" id="identificacion" name="identificacion"
+        maxlength="10" pattern="^[0-9]+-[0-9kK]{1}$" placeholder="Ejemplo: 21345342-5">        
+        <label for="comentario">Comentario</label>
+        <input class="input-comentario" type="text" name="comentario" id="comentario"
+        style="height:200px">
+        <input type="submit" value="Enviar" class="boton1" id="enviar">
         <input type="reset" class="boton2" value="Limpiar" id="limpiar">
         </form>
     </section>
