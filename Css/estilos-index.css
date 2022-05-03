@@ -10,11 +10,20 @@
     border: 3px solid #804000;
 }
 #color-boton-search{
-    margin-left: 4px;
+    margin-right: 5px;
     border: 3px solid #804000;
     color: #804000;
     background-color: burlywood;
 }
+
+#boton-l-r{
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border: 3px solid #804000;
+    color: #804000;
+    background-color: burlywood;
+}
+
 #marginnav{
     margin: 0;
     padding: 0;
@@ -35,6 +44,10 @@
 }
 #hdos{
     color: white;
+}
+
+.d-flex{
+    margin-bottom: 5px;
 }
 
 .productos .card{
