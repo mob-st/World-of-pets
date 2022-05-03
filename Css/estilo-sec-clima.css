@@ -1,0 +1,36 @@
+#clima{
+    box-sizing: content-box;
+    border: 3px solid #804000;
+    border-radius: 5px;
+    width: 20vh;
+    height: 8vh;
+    flex-direction: row;
+    margin-right: 10px;
+}
+#temperatura-valor{
+    display: inline;
+    box-sizing: content-box;
+    position: relative;
+    top: 5px;
+    margin-left: 4vh;
+    margin-bottom: 0px;
+}
+
+#ubicacion{
+    font-size: 13px;
+    width: 70px;
+    height: 35px;
+    top: 32px;
+    right: 45%;
+    margin-left: 2vh;
+    margin-bottom: 0px;
+}
+
+#icono-animado{
+    display: inline;
+    position: absolute;
+    
+    margin-left: 2vh;
+    width: 50px;
+    height: 50px;
+}

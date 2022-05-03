@@ -10,7 +10,7 @@
     border: 3px solid #804000;
 }
 #color-boton-search{
-    margin-right: 1%;
+    margin-left: 4px;
     border: 3px solid #804000;
     color: #804000;
     background-color: burlywood;
@@ -25,12 +25,12 @@
 }
 
 .carousel-inner{
-    background-color: #3d2208;
+    background-color: #804000;
 }
 
 #color-boton-filtrar{
-    border: 3px solid #522900;
-    color: #522900;
+    border: 3px solid #804000;
+    color: #804000;
     background-color: burlywood;
 }
 #hdos{
@@ -38,6 +38,8 @@
 }
 
 .productos .card{
+    width: 40vh;
+    height: 55vh;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
@@ -47,10 +49,13 @@
     padding: 1rem; 
     border-radius: 1rem 1rem 1rem 1rem;
     margin: auto;
+    margin-bottom: 25px;
 
     
 }
 .productos-2 .card{
+    width: 40vh;
+    height: 55vh;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
@@ -60,6 +65,7 @@
     padding: 1rem; 
     border-radius: 1rem 1rem 1rem 1rem;
     margin: auto;
+    margin-bottom: 25px;
 
     
 }
