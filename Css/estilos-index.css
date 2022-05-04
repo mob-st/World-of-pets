@@ -8,20 +8,25 @@
 }
 #searchnav{
     border: 3px solid #804000;
+    
 }
+.d-flex{
+    margin-bottom: 3px;
+}
+
 #color-boton-search{
-    margin-right: 5px;
+    margin-right: 10px;
+    margin-left: 4px;
     border: 3px solid #804000;
     color: #804000;
     background-color: burlywood;
 }
 
 #boton-l-r{
-    margin-bottom: 5px;
-    margin-right: 5px;
     border: 3px solid #804000;
     color: #804000;
     background-color: burlywood;
+    margin-bottom: 3px;
 }
 
 #marginnav{
@@ -46,13 +51,9 @@
     color: white;
 }
 
-.d-flex{
-    margin-bottom: 5px;
-}
-
 .productos .card{
-    width: 40vh;
-    height: 55vh;
+    width: 260px;
+    height: 395px;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
@@ -66,8 +67,8 @@
 }
 
 .productos-2 .card{
-    width: 40vh;
-    height: 55vh;
+    width: 260px;
+    height: 395px;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
