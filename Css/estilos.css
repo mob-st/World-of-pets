@@ -84,13 +84,16 @@
     margin-bottom: 25px;
 }
 
-#botones-comprar{
+#iconoCarrito{
     position: absolute;
-    bottom: 10px;
+    bottom: 15px;
+    left: 70%;
 }
 #nombres-productos{
     position: absolute;
     top:50%;
+    color: #804000;
+
 }
 
 #imagenes-productos{
@@ -105,4 +108,13 @@
     top: 60%;
     padding-left: 5px;
     padding-right: 5px;
+    color: #686766;
+}
+
+#precios{
+    font-family: 'Glegoo';
+    position: absolute;
+    font-size: xx-large;
+    bottom: 0px;
+    left: 10%;
 }
