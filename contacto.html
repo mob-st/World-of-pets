@@ -59,10 +59,9 @@
         maxlength="9" pattern="9+[0-9]{8}" placeholder="Ejemplo: 923345464">
         <label for="rut">Identificacion (RUT)</label>
         <input type="text" id="rut" class="inputs" name="rut" onkeypress="isNumber(event)" oninput="checkRut(this)"
-        required maxlength="10" placeholder="Ejemplo: xxxxxxxx-x">   
+        required maxlength="10" placeholder="Ejemplo: xxxxxxxx-x">
         <label for="comentario">Comentario</label>
-        <input class="input-comentario" type="text" name="comentario" id="comentario"
-        style="height:200px">
+        <textarea class="input-comentario" name="comentario" id="comentario" rows="4" cols="50" ></textarea>
         <input type="submit" value="Enviar" class="boton1" id="enviar"></input>
         <input type="reset" value="Limpiar" class="boton2" id="limpiar"></input>
         </form>
