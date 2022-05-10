@@ -119,7 +119,7 @@ $(document).ready(function leer (){
             scrollTop: '0px'
         }, 0);
 
-    }else if ($("#comentario").val().trim().length <= 50){
+    }else if ($("#comentario").val().trim().length < 50){
         $("#alertaExito").hide();
         $("#alertaNombre").hide();
         mensaje = "Debe ingresar un comentario con almenos 50 caracteres";
