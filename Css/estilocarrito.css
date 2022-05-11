@@ -34,15 +34,23 @@
     align-items: left;
     text-align: left;
     padding: 1rem;
-    padding-left: 7rem;
+    padding-left: 8%;
     border-radius: 1rem 1rem 1rem 1rem;
     margin: auto;
     
 }
 
+.productos{
+    margin-left: 10%;
+    width: 80%;
+    background-color: #f1eeea;
+    border: 6px solid burlywood;
+    border-radius: 4px;
+}
+
 .productos .card{
     width: 260px;
-    height: 395px;
+    height: 315px;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
@@ -55,13 +63,20 @@
     margin-bottom: 25px;
 }
 
+#barra-seg{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
 #boton-item{
     position: absolute;
     bottom: 10px;
 }
 #nombres-productos{
     position: absolute;
-    top:50%;
+    top:55%;
 }
 
 #imagenes-productos{
@@ -73,7 +88,7 @@
 
 #descripcion-productos{
     position: absolute;
-    top: 60%;
+    top: 72%;
     padding-left: 5px;
     padding-right: 5px;
 }
