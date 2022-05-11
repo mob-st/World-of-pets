@@ -14,7 +14,7 @@
     box-sizing: content-box;
     position: relative;
     top: 5px;
-    margin-left: 4vh;
+    margin-left: 27px;
     margin-bottom: 0px;
 }
 
@@ -24,15 +24,14 @@
     height: 35px;
     top: 32px;
     right: 45%;
-    margin-left: 2vh;
+    margin-left: 12px;
     margin-bottom: 0px;
 }
 
 #icono-animado{
     display: inline;
     position: absolute;
-    
-    margin-left: 2vh;
+    margin-left: 16px;
     width: 50px;
     height: 50px;
 }
