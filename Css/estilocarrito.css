@@ -42,6 +42,7 @@
 
 .productos{
     margin-left: 10%;
+    height: 1270px;
     width: 80%;
     background-color: #f1eeea;
     border: 6px solid burlywood;
@@ -49,18 +50,97 @@
 }
 
 .productos .card{
-    width: 260px;
+    width: 240px;
     height: 315px;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
     display: flex;
+    position: relative;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     text-align: center;
-    padding: 1rem; 
+    padding: 1rem;
     border-radius: 1rem 1rem 1rem 1rem;
-    margin: auto;
+    margin-left: 3%;
     margin-bottom: 25px;
+}
+
+#precio1{
+    font-family: 'Glegoo';
+    font-size: 190%;
+    display: inline;
+    position: absolute;
+    top: 32%;
+    right: 12%;
+}
+#precio2{
+    font-family: 'Glegoo';
+    font-size: 190%;
+    display: inline;
+    position: absolute;
+    top: 90%;
+    right: 12%;
+}
+#precio3{
+    font-family: 'Glegoo';
+    font-size: 190%;
+    display: inline;
+    position: absolute;
+    top: 150%;
+    right: 12%;
+}
+
+#eliminar-de-carrito1{
+    display: inline;
+    position: absolute;
+    margin-left: 65%;
+    bottom: 18.5%;
+    right: 12%;
+}
+#eliminar-de-carrito2{
+    display: inline;
+    position: absolute;
+    margin-left: 65%;
+    bottom: -40%;
+    right: 12%;
+}
+#eliminar-de-carrito3{
+    display: inline;
+    position: absolute;
+    margin-left: 65%;
+    bottom: -98%;
+    right: 12%;
+}
+
+.barrita-separacion{
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    height: 1px;
+    width: 97%;
+    margin-bottom: 20px;
+}
+
+.Total{
+    font-family: 'Glegoo';
+    font-size: 190%;
+    position: absolute;
+    left: 12%;
+}
+
+#color-boton-pagar{
+    border: 3px solid #804000;
+    color: #804000;
+    background-color: burlywood;
+    position: absolute;
+    bottom: -780px;
+    right: 12%;
+}
+
+#resultado{
+    font-family: 'Glegoo';
+    font-size: 190%;
+    position: absolute;
+    right: 12%;
 }
 
 #barra-seg{
