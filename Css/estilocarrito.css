@@ -42,7 +42,7 @@
 
 .productos{
     margin-left: 10%;
-    height: 1270px;
+    height: 1290px;
     width: 80%;
     background-color: #f1eeea;
     border: 6px solid burlywood;
@@ -132,7 +132,7 @@
     color: #804000;
     background-color: burlywood;
     position: absolute;
-    bottom: -780px;
+    bottom: -800px;
     right: 12%;
 }
 
