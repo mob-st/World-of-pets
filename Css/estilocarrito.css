@@ -70,7 +70,7 @@
     font-size: 190%;
     display: inline;
     position: absolute;
-    top: 32%;
+    top: 220px;
     right: 12%;
 }
 #precio2{
@@ -78,7 +78,7 @@
     font-size: 190%;
     display: inline;
     position: absolute;
-    top: 90%;
+    top: 580px;
     right: 12%;
 }
 #precio3{
@@ -86,29 +86,29 @@
     font-size: 190%;
     display: inline;
     position: absolute;
-    top: 150%;
+    top: 950px;
     right: 12%;
 }
 
 #eliminar-de-carrito1{
     display: inline;
     position: absolute;
+    top: 450px;
     margin-left: 65%;
-    bottom: 18.5%;
     right: 12%;
 }
 #eliminar-de-carrito2{
     display: inline;
     position: absolute;
+    top: 815px;
     margin-left: 65%;
-    bottom: -40%;
     right: 12%;
 }
 #eliminar-de-carrito3{
     display: inline;
     position: absolute;
+    top: 1180px;
     margin-left: 65%;
-    bottom: -98%;
     right: 12%;
 }
 
@@ -132,7 +132,7 @@
     color: #804000;
     background-color: burlywood;
     position: absolute;
-    bottom: -800px;
+    top: 1390px;
     right: 12%;
 }
 
